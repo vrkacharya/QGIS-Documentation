@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,288 +30,680 @@ msgid "Creates a bar plot from a category and a layer field."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:19
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:45
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:81
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:111
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:137
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:167
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:196
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:223
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:80
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:154
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:219
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:280
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:346
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:411
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:473
 msgid "Parameters"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:22
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:48
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:114
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:170
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:199
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:26
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:62
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:87
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:135
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:161
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:197
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:226
-msgid "``Input layer`` [vector: any]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:262
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:287
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:326
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:353
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:392
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:418
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:454
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:480
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:520
+msgid "Label"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:22
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:48
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:84
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:114
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:170
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:199
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:226
-msgid "Input vector layer to use for the plot."
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:25
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:51
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:117
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:173
-msgid "``Category field name`` [tablefield: any]"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:25
-msgid "Categorical field to use for grouping the bars (X axis)."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:27
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:63
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:88
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:136
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:162
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:198
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:227
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:263
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:288
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:327
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:354
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:393
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:419
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:455
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:481
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:521
+msgid "Name"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:28
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:54
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:90
-msgid "``Value field`` [tablefield: any]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:64
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:89
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:137
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:163
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:199
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:228
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:264
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:289
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:328
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:355
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:394
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:420
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:456
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:482
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:522
+msgid "Type"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:28
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:54
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:29
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:65
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:90
-msgid "Value to use for the plot (Y axis)."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:138
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:164
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:200
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:229
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:265
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:290
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:329
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:356
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:395
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:421
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:457
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:483
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:523
+msgid "Description"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:30
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:91
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:230
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:291
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:357
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:422
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:484
+msgid "**Input layer**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:31
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:66
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:93
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:123
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:151
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:181
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:208
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:238
-msgid "Outputs"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:92
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:166
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:231
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:292
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:358
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:423
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:485
+msgid "``INPUT``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:35
-msgid "``Bar plot`` [html]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:32
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:93
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:167
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:232
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:359
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:424
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:486
+msgid "[vector: any]"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:33
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:94
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:168
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:233
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:360
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:425
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:487
+msgid "Input vector layer"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:34
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:69
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:96
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:126
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:154
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:184
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:211
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:241
-msgid ""
-"``html`` file of the plot available in the :menuselection:`Processing -->"
-" Result Viewer`."
+msgid "**Category field name**"
 msgstr ""
 
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:35
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:96
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:170
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:235
+msgid "``NAME_FIELD``"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:36
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:40
-msgid "Box plot"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:97
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:101
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:171
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:175
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:236
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:240
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:363
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:428
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:432
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:490
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:494
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:498
+msgid "[tablefield: any]"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:37
+msgid "Categorical field to use for grouping the bars (X axis)"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:38
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:99
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:173
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:238
+msgid "**Value field**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:39
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:100
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:174
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:239
+msgid "``VALUE_FIELD``"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:41
-msgid "Creates a box plot from a category and a layer field."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:102
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:176
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:241
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:364
+msgid "Value to use for the plot (Y axis)."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:51
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:87
-msgid "Categorical field to use for grouping the boxes (X axis)."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:42
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:66
+msgid "**Bar plot**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:63
-msgid "``Additional statistic lines`` [enumeration]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:43
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:67
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:116
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:140
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:178
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:202
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:243
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:267
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:307
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:331
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:373
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:397
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:435
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:459
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:501
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:525
+msgid "``OUTPUT``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:57
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:44
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:68
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:117
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:141
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:179
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:203
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:244
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:268
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:308
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:332
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:374
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:398
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:436
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:460
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:502
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:526
+msgid "[html]"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:46
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:119
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:181
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:246
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:310
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:376
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:438
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:504
+msgid "Default: ``[Save to temporary file]``"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:47
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:120
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:182
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:247
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:311
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:377
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:439
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:505
+msgid "Specify the HTML file for the plot. One of:"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:49
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:122
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:184
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:249
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:313
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:379
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:441
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:507
+msgid "Save to a Temporary File"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:50
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:123
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:185
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:250
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:314
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:380
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:442
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:508
+msgid "Save to File..."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:52
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:125
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:187
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:252
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:316
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:382
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:444
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:510
+msgid "The file encoding can also be changed here."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:55
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:128
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:190
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:255
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:319
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:385
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:447
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:513
+msgid "Outputs"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:69
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:142
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:204
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:269
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:333
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:399
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:461
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:527
 msgid ""
-"Additional statistics information to add to the plot. Options available "
-"are:"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:59
-msgid "Show Mean"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:60
-msgid "Show Standard Deviation"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:61
-msgid "Don't show mean and standard deviation"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:63
-msgid "Default: *Show Mean*"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:71
-msgid "``Box plot`` [html]"
+"HTML file with the plot. Available in the :menuselection:`Processing --> "
+"Result Viewer`."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:76
-msgid "Mean and standard deviation plot"
+msgid "Box plot"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:77
-msgid "Creates a box plot with mean and standard deviation values."
+msgid "Creates a box plot from a category field and a numerical layer field."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:84
-msgid "``Input table`` [vector: any]"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:87
-msgid "``Category name field`` [tablefield: any]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:95
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:169
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:234
+msgid "**Category name field**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:98
-msgid "``Plot`` [html]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:172
+msgid "Categorical field to use for grouping the boxes (X axis)"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:103
-msgid "Polar plot"
+msgid "**Additional statistic lines**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/graphics.rst:104
+msgid "``MSD``"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:105
+msgid "[enumeration]"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:107
+msgid "Default: 0"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:108
+msgid "Additional statistics information to add to the plot. One of:"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:111
+msgid "0 --- Show Mean"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:112
+msgid "1 --- Show Standard Deviation"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:113
+msgid "2 --- Don't show mean and standard deviation"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:115
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:139
+msgid "**Box plot**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:149
+msgid "Mean and standard deviation plot"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:150
+msgid "Creates a box plot with mean and standard deviation values."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:165
+msgid "**Input table**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:177
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:201
+msgid "**Plot**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:211
+msgid "Polar plot"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:212
 msgid "Generates a polar plot based on the value of an input vector layer."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:106
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:214
 msgid ""
 "Two fields must be entered as parameters: one that defines the category "
 "each feature (to group features) and another one with the variable to "
 "plot (this has to be a numeric one)."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:117
-msgid "Categorical field to group the features."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:237
+msgid "Categorical field to use for grouping the features (X axis)"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:120
-msgid "``Value field`` [tablefield: numeric]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:242
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:266
+msgid "**Polar plot**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:120
-msgid "Value to use for the plot."
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:128
-msgid "``Polar plot`` [html]"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:133
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:276
 msgid "Raster layer histogram"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:134
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:277
 msgid "Generates a histogram with the values of a raster layer."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:140
-msgid "``Input layer`` [raster]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:293
+msgid "[raster]"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:140
-msgid "Input raster layer to use for the plot."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:294
+msgid "Input raster layer"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:143
-msgid "``Band number`` [raster band]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:295
+msgid "**Band number**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:143
-msgid "Raster band to use for the histogram."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:296
+msgid "``BAND``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:148
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:178
-msgid "``number of bins`` [number]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:297
+msgid "[raster band]"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:146
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:176
-msgid "Total bins of the histogram."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:298
+msgid "Raster band to use for the histogram"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:148
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:178
-msgid "Default: *10*"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:299
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:365
+msgid "**number of bins**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:156
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:186
-msgid "``Histogram`` [html]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:300
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:366
+msgid "``BINS``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:161
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:301
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:367
+msgid "[number]"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:303
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:369
+msgid "Default: 10"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:304
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:370
+msgid "The number of bins to use in the histogram (X axis). Minimum 2."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:306
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:330
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:372
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:396
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:500
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:524
+msgid "**Histogram**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:340
 msgid "Vector layer histogram"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:162
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:341
 msgid "Generates a histogram with the values of the attribute of a vector layer."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:164
-msgid ""
-"The attribute to use for computing the histogram must be a numeric "
-"attribute."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:343
+msgid "The attribute to use for computing the histogram must be numeric."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:173
-msgid "Field to use for the histogram."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:361
+msgid "**Attribute**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:191
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:362
+msgid "``FIELD``"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:406
 msgid "Vector layer scatterplot"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:192
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:407
 msgid "Creates a simple ``X`` - ``Y`` scatter plot for a vector layer."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:202
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:229
-msgid "``X attribute`` [tablefield: any]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:426
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:488
+msgid "**X attribute**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:202
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:229
-msgid "Field to use for the X axis."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:427
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:489
+msgid "``XFIELD``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:205
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:232
-msgid "``Y attribute`` [tablefield: any]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:429
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:491
+msgid "Field to use for the X axis"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:205
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:232
-msgid "Field to use for the Y axis."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:430
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:492
+msgid "**Y attribute**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:213
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:240
-msgid "``Scatterplot`` [html]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:431
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:493
+msgid "``YFIELD``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:218
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:433
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:495
+msgid "Field to use for the Y axis"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:434
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:458
+msgid "**Scatterplot**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:468
 msgid "Vector layer scatterplot 3D"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:219
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:469
 msgid "Creates a 3D scatter plot for a vector layer."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:235
-msgid "``Z attribute`` [tablefield: any]"
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:496
+msgid "**Z attribute**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:235
-msgid "Field to use for the Z axis."
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:497
+msgid "``ZFIELD``"
 msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/graphics.rst:499
+msgid "Field to use for the Z axis"
+msgstr ""
+
+#~ msgid "``Input layer`` [vector: any]"
+#~ msgstr ""
+
+#~ msgid "Input vector layer to use for the plot."
+#~ msgstr ""
+
+#~ msgid "``Category field name`` [tablefield: any]"
+#~ msgstr ""
+
+#~ msgid "Categorical field to use for grouping the bars (X axis)."
+#~ msgstr ""
+
+#~ msgid "``Value field`` [tablefield: any]"
+#~ msgstr ""
+
+#~ msgid "``Bar plot`` [html]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``html`` file of the plot available "
+#~ "in the :menuselection:`Processing --> Result"
+#~ " Viewer`."
+#~ msgstr ""
+
+#~ msgid "Creates a box plot from a category and a layer field."
+#~ msgstr ""
+
+#~ msgid "Categorical field to use for grouping the boxes (X axis)."
+#~ msgstr ""
+
+#~ msgid "``Additional statistic lines`` [enumeration]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additional statistics information to add "
+#~ "to the plot. Options available are:"
+#~ msgstr ""
+
+#~ msgid "Show Mean"
+#~ msgstr ""
+
+#~ msgid "Show Standard Deviation"
+#~ msgstr ""
+
+#~ msgid "Don't show mean and standard deviation"
+#~ msgstr ""
+
+#~ msgid "Default: *Show Mean*"
+#~ msgstr ""
+
+#~ msgid "``Box plot`` [html]"
+#~ msgstr ""
+
+#~ msgid "``Input table`` [vector: any]"
+#~ msgstr ""
+
+#~ msgid "``Category name field`` [tablefield: any]"
+#~ msgstr ""
+
+#~ msgid "``Plot`` [html]"
+#~ msgstr ""
+
+#~ msgid "Categorical field to group the features."
+#~ msgstr ""
+
+#~ msgid "``Value field`` [tablefield: numeric]"
+#~ msgstr ""
+
+#~ msgid "Value to use for the plot."
+#~ msgstr ""
+
+#~ msgid "``Polar plot`` [html]"
+#~ msgstr ""
+
+#~ msgid "``Input layer`` [raster]"
+#~ msgstr ""
+
+#~ msgid "Input raster layer to use for the plot."
+#~ msgstr ""
+
+#~ msgid "``Band number`` [raster band]"
+#~ msgstr ""
+
+#~ msgid "Raster band to use for the histogram."
+#~ msgstr ""
+
+#~ msgid "``number of bins`` [number]"
+#~ msgstr ""
+
+#~ msgid "Total bins of the histogram."
+#~ msgstr ""
+
+#~ msgid "Default: *10*"
+#~ msgstr ""
+
+#~ msgid "``Histogram`` [html]"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The attribute to use for computing "
+#~ "the histogram must be a numeric "
+#~ "attribute."
+#~ msgstr ""
+
+#~ msgid "Field to use for the histogram."
+#~ msgstr ""
+
+#~ msgid "``X attribute`` [tablefield: any]"
+#~ msgstr ""
+
+#~ msgid "Field to use for the X axis."
+#~ msgstr ""
+
+#~ msgid "``Y attribute`` [tablefield: any]"
+#~ msgstr ""
+
+#~ msgid "Field to use for the Y axis."
+#~ msgstr ""
+
+#~ msgid "``Scatterplot`` [html]"
+#~ msgstr ""
+
+#~ msgid "``Z attribute`` [tablefield: any]"
+#~ msgstr ""
+
+#~ msgid "Field to use for the Z axis."
+#~ msgstr ""
 

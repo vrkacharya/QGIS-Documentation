@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,22 +48,22 @@ msgid "Parameters"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:35
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:66
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:65
 msgid "Label"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:36
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:67
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:66
 msgid "Name"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:37
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:68
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:67
 msgid "Type"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:38
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:69
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:68
 msgid "Description"
 msgstr ""
 
@@ -84,17 +84,17 @@ msgid "Input layer"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:43
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:70
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:69
 msgid "**Extent**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:44
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:71
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:70
 msgid "``OUTPUT``"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:45
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:72
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:71
 msgid "[vector: polygon]"
 msgstr ""
 
@@ -107,34 +107,36 @@ msgid "Specify the polygon vector layer for the output extent. One of:"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/layertools.rst:51
-msgid "Skip Output"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:52
 msgid "Create Temporary Layer (``TEMPORARY_OUTPUT``)"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:53
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:52
 msgid "Save to File..."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:54
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:53
 msgid "Save to Geopackage..."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:55
-msgid "Save to PostGIS Table"
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:54
+msgid "Save to PostGIS Table..."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:57
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:56
 msgid "The file encoding can also be changed here."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:60
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:59
 msgid "Outputs"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:73
+#: ../../docs/user_manual/processing_algs/qgis/layertools.rst:72
 msgid "Output (polygon) vector layer with the extent (minimum bounding box)"
 msgstr ""
+
+#~ msgid "Skip Output"
+#~ msgstr ""
+
+#~ msgid "Save to PostGIS Table"
+#~ msgstr ""
 

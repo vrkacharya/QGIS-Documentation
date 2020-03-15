@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -226,29 +226,35 @@ msgstr ""
 #: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:131
 msgid ""
 "You can define the :ref:`fonts <font_selector>` and :ref:`colors <color-"
-"selector>` used for the scale bar."
+"selector>` used for the scale bar. These properties are data-definable."
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:134
 msgid ""
 "Use the :guilabel:`Font` button to set the :ref:`properties "
 "<text_format>` (size, font, color, letter spacing, shadow, background...)"
-" of the scale bar label"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:136
-msgid ":guilabel:`Fill color`: set the first fill color"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:137
-msgid ":guilabel:`Secondary fill color`: set the second fill color"
+" of the scale bar label."
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:138
+msgid ""
+"Example: The following code applied to the bold property of the scale "
+"labels will display texts in bold when they are a multiple of 500:"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:148
+msgid ":guilabel:`Fill color`: set the first fill color"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:149
+msgid ":guilabel:`Secondary fill color`: set the second fill color"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:150
 msgid ":guilabel:`Line color`: set the color of the lines of the Scale Bar"
 msgstr ""
 
-#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:140
+#: ../../docs/user_manual/print_composer/composer_items/composer_scale_bar.rst:152
 msgid "Fill colors are only used for *Single Box* and *Double Box* styles."
 msgstr ""
 
@@ -297,5 +303,18 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ":guilabel:`Font color`: set the font color"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can define the :ref:`fonts "
+#~ "<font_selector>` and :ref:`colors <color-"
+#~ "selector>` used for the scale bar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the :guilabel:`Font` button to set"
+#~ " the :ref:`properties <text_format>` (size, "
+#~ "font, color, letter spacing, shadow, "
+#~ "background...) of the scale bar label"
 #~ msgstr ""
 

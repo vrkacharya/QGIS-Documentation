@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "Cartography"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:13
-msgid "Combine style databases |310|"
+msgid "Combine style databases"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:14
@@ -40,7 +40,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:21
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:111
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:232
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:427
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:426
 msgid "Parameters"
 msgstr ""
 
@@ -51,9 +51,9 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:239
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:281
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:327
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:379
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:434
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:508
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:378
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:433
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:506
 msgid "Label"
 msgstr ""
 
@@ -64,9 +64,9 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:240
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:282
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:328
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:380
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:435
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:509
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:379
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:434
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:507
 msgid "Name"
 msgstr ""
 
@@ -77,9 +77,9 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:241
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:283
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:329
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:381
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:436
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:510
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:380
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:435
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:508
 msgid "Type"
 msgstr ""
 
@@ -90,9 +90,9 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:242
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:284
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:330
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:382
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:437
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:511
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:381
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:436
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:509
 msgid "Description"
 msgstr ""
 
@@ -103,7 +103,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:33
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:123
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:246
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:439
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:438
 msgid "``INPUT``"
 msgstr ""
 
@@ -168,9 +168,9 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:261
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:294
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:357
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:388
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:486
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:513
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:387
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:485
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:511
 msgid "``OUTPUT``"
 msgstr ""
 
@@ -201,8 +201,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:166
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:183
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:269
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:365
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:494
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:364
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:492
 msgid "Save to File..."
 msgstr ""
 
@@ -210,16 +210,16 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:170
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:187
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:271
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:369
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:498
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:368
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:496
 msgid "The file encoding can also be changed here."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:61
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:190
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:274
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:372
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:501
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:371
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:499
 msgid "Outputs"
 msgstr ""
 
@@ -241,12 +241,12 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:291
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:299
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:303
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:385
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:394
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:398
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:402
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:444
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:451
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:384
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:393
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:397
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:401
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:443
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:450
 msgid "[number]"
 msgstr ""
 
@@ -313,7 +313,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:122
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:438
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:437
 msgid "**Input layer**"
 msgstr ""
 
@@ -434,30 +434,28 @@ msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:164
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:181
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:363
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:492
 msgid "Skip output"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:165
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:182
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:364
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:493
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:363
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:491
 msgid "Create Temporary Layer (``TEMPORARY_OUTPUT``)"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:167
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:184
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:366
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:495
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:365
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:493
 msgid "Save to Geopackage..."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:168
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:185
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:367
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:496
-msgid "Save to PostGIS Table"
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:366
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:494
+msgid "Save to PostGIS Table..."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:171
@@ -503,7 +501,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:221
-msgid "Create style database from project |310|"
+msgid "Create style database from project"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:222
@@ -566,7 +564,7 @@ msgid "Number of text formats"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:310
-msgid "Print layout map extent to layer |38|"
+msgid "Print layout map extent to layer"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:312
@@ -599,7 +597,7 @@ msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:333
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:339
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:459
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:458
 msgid "[enumeration]"
 msgstr ""
 
@@ -646,20 +644,20 @@ msgid "Select the CRS for the layer in which the information will be reported."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:356
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:387
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:386
 msgid "**Extent**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:358
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:389
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:440
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:487
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:514
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:388
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:439
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:486
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:512
 msgid "[vector: polygon]"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/cartography.rst:360
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:489
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:488
 msgid "Default: ``[Create temporary layer]``"
 msgstr ""
 
@@ -667,171 +665,186 @@ msgstr ""
 msgid "Specify the output vector layer for the extent(s). One of:"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:383
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:382
 msgid "**Map height**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:384
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:383
 msgid "``HEIGHT``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:390
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:389
 msgid ""
 "Output polygon vector layer containing extents of all the input layout "
 "map item(s)"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:392
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:391
 msgid "**Map rotation**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:393
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:392
 msgid "``ROTATION``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:396
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:395
 msgid "**Map scale**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:397
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:396
 msgid "``SCALE``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:400
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:399
 msgid "**Map width**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:401
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:400
 msgid "``WIDTH``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:409
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:408
 msgid "Topological coloring"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:410
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:409
 msgid ""
 "Assigns a color index to polygon features in such a way that no adjacent "
 "polygons share the same color index, whilst minimizing the number of "
 "colors required."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:413
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:412
 msgid "The algorithm allows choice of method to use when assigning colors."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:415
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:414
 msgid ""
 "A minimum number of colors can be specified if desired. The color index "
 "is saved to a new attribute named **color_id**."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:418
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:417
 msgid ""
 "The following example shows the algorithm with four different colors "
 "chosen; as you can see each color class has the same amount of features."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:424
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:423
 msgid "Topological colors example"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:441
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:440
 msgid "The input polygon layer"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:442
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:441
 msgid "**Minimum number of colors**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:443
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:442
 msgid "``MIN_COLORS``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:446
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:445
 msgid "Default: 4"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:447
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:446
 msgid "The minimum number of colors to assign. Minimum 1, maximum 1000."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:449
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:448
 msgid "**Minimum distance between features**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:450
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:449
 msgid "``MIN_DISTANCE``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:453
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:452
 msgid "Default: 0.0"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:454
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:453
 msgid ""
 "Prevent nearby (but non-touching) features from being assigned equal "
 "colors. Minimum 0.0."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:457
-msgid "*Balance color assignment**"
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:456
+msgid "**Balance color assignment**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:458
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:457
 msgid "``BALANCE``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:461
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:460
 msgid "Default: 0"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:462
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:461
 msgid "Options are:"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:464
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:463
 msgid "0 --- By feature count"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:466
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:465
 msgid ""
 "Attempts to assign colors so that the count of features assigned to each "
 "individual color index is balanced."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:470
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:469
 msgid "1 --- By assigned area"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:472
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:471
 msgid ""
 "Assigns colors so that the total area of features assigned to each color "
 "is balanced. This mode can be useful to help avoid large features "
 "resulting in one of the colors appearing more dominant on a colored map."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:478
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:477
 msgid "2 --- By distance between colors"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:480
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:479
 msgid ""
 "Assigns colors in order to maximize the distance between features of the "
 "same color. This mode helps to create a more uniform distribution of "
 "colors across a map."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:485
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:512
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:484
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:510
 msgid "**Colored**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:490
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:489
 msgid "Specify the output layer. One of:"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:515
+#: ../../docs/user_manual/processing_algs/qgis/cartography.rst:513
 msgid "Polygon vector layer with an added ``color_id`` column"
 msgstr ""
+
+#~ msgid "Combine style databases |310|"
+#~ msgstr ""
+
+#~ msgid "Save to PostGIS Table"
+#~ msgstr ""
+
+#~ msgid "Create style database from project |310|"
+#~ msgstr ""
+
+#~ msgid "Print layout map extent to layer |38|"
+#~ msgstr ""
+
+#~ msgid "*Balance color assignment**"
+#~ msgstr ""
 

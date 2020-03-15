@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -330,7 +330,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:507
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:593
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:698
-msgid "Save to PostGIS Table..."
+msgid "Save to PostGIS Table......"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:79
@@ -591,7 +591,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:320
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:572
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:678
-msgid "**Overlay fields prefix** |38|"
+msgid "**Overlay fields prefix**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:323
@@ -686,7 +686,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:415
-msgid "**Intersect fields prefix** |38|"
+msgid "**Intersect fields prefix**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:425
@@ -815,7 +815,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectoroverlay.rst:585
 msgid ""
 "Specify the layer to contain (the parts of) the features from the input "
-"and overlay layers that so not overlap features from the other layer. One"
+"and overlay layers that do not overlap features from the other layer. One"
 " of:"
 msgstr ""
 
@@ -897,4 +897,21 @@ msgid ""
 "Layer containing all the overlapping and non-overlapping parts from the "
 "processed layer(s)."
 msgstr ""
+
+#~ msgid "Save to PostGIS Table..."
+#~ msgstr ""
+
+#~ msgid "**Overlay fields prefix** |38|"
+#~ msgstr ""
+
+#~ msgid "**Intersect fields prefix** |38|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Specify the layer to contain (the "
+#~ "parts of) the features from the "
+#~ "input and overlay layers that so "
+#~ "not overlap features from the other "
+#~ "layer. One of:"
+#~ msgstr ""
 

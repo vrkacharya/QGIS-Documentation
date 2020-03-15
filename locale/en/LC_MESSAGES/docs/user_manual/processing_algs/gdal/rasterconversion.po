@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -392,7 +392,7 @@ msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterconversion.rst:202
 #: ../../docs/user_manual/processing_algs/gdal/rasterconversion.rst:467
-msgid "**Additional command-line parameters** |310|"
+msgid "**Additional command-line parameters**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterconversion.rst:204
@@ -723,4 +723,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasterconversion.rst:524
 msgid "Output (translated) raster layer."
 msgstr ""
+
+#~ msgid "**Additional command-line parameters** |310|"
+#~ msgstr ""
 

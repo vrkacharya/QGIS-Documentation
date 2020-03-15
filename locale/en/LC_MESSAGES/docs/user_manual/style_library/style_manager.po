@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,7 +242,7 @@ msgstr ""
 #: ../../docs/user_manual/style_library/style_manager.rst:141
 msgid ""
 ":menuselection:`Add to Tag -->` and select the appropriate tag or create "
-"a new one to use;"
+"a new one to use; the currently assigned tags are checked;"
 msgstr ""
 
 #: ../../docs/user_manual/style_library/style_manager.rst:143
@@ -258,22 +258,32 @@ msgid ":guilabel:`Edit Item`: applies to the item you right-click over;"
 msgstr ""
 
 #: ../../docs/user_manual/style_library/style_manager.rst:146
+msgid ":guilabel:`Copy Item`;"
+msgstr ""
+
+#: ../../docs/user_manual/style_library/style_manager.rst:147
+msgid ""
+":guilabel:`Paste Item ...`: pasting to one of the categories of the style"
+" manager or elsewhere in QGIS (symbol or color buttons)"
+msgstr ""
+
+#: ../../docs/user_manual/style_library/style_manager.rst:149
 msgid ""
 ":guilabel:`Export Selected Symbol(s) as PNG...` (only available with "
 "symbols);"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:147
+#: ../../docs/user_manual/style_library/style_manager.rst:150
 msgid ""
 ":guilabel:`Export Selected Symbol(s) as SVG...` (only available with "
 "symbols);"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:152
+#: ../../docs/user_manual/style_library/style_manager.rst:155
 msgid "Sharing style items"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:154
+#: ../../docs/user_manual/style_library/style_manager.rst:157
 msgid ""
 "The |sharing| :guilabel:`Import/Export` tool, at the left bottom of the "
 "Style Manager dialog, offers options to easily share symbols, color "
@@ -281,27 +291,27 @@ msgid ""
 "also available through right-click over the items."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:160
+#: ../../docs/user_manual/style_library/style_manager.rst:163
 msgid "Exporting items"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:162
+#: ../../docs/user_manual/style_library/style_manager.rst:165
 msgid "You can export a set of items to an :file:`.XML` file:"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:164
+#: ../../docs/user_manual/style_library/style_manager.rst:167
 msgid ""
 "Expand the |sharing| :guilabel:`Import/Export` drop-down menu and select "
 "|fileSave| :guilabel:`Export Item(s)...`"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:166
+#: ../../docs/user_manual/style_library/style_manager.rst:169
 msgid ""
 "Choose the items you'd like to integrate. Selection can be done with the "
 "mouse or using a tag or a group previously set."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:168
+#: ../../docs/user_manual/style_library/style_manager.rst:171
 msgid ""
 "Press :guilabel:`Export` when ready. You'll be prompted to indicate the "
 "destination of the saved file. The XML format generates a single file "
@@ -309,11 +319,11 @@ msgid ""
 "another user's style library."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:178
+#: ../../docs/user_manual/style_library/style_manager.rst:181
 msgid "Exporting style items"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:180
+#: ../../docs/user_manual/style_library/style_manager.rst:183
 msgid ""
 "When symbols are selected, you can also export them to :file:`.PNG` or "
 ":file:`.SVG`. Exporting to :file:`.PNG` or :file:`.SVG` (both not "
@@ -323,89 +333,89 @@ msgid ""
 " menu of another user, allowing him direct access to all these symbols."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:190
+#: ../../docs/user_manual/style_library/style_manager.rst:193
 msgid "Importing items"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:192
+#: ../../docs/user_manual/style_library/style_manager.rst:195
 msgid "You can extend your style library by importing new items:"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:194
+#: ../../docs/user_manual/style_library/style_manager.rst:197
 msgid ""
 "Expand the |sharing| :guilabel:`Import/Export` drop-down menu and select "
 "|fileOpen| :guilabel:`Import Item(s)` at the left bottom of the dialog."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:196
+#: ../../docs/user_manual/style_library/style_manager.rst:199
 msgid ""
 "In the new dialog, indicate the source of the style items (it can be an "
 ":file:`.xml` file on the disk or a url)."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:198
+#: ../../docs/user_manual/style_library/style_manager.rst:201
 msgid ""
 "Set whether to |unchecked| :guilabel:`Add to favorites` the items to "
 "import."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:199
+#: ../../docs/user_manual/style_library/style_manager.rst:202
 msgid ""
 "Check |unchecked| :guilabel:`Do not import embedded tags` to avoid the "
 "import of tags associated to the items being imported."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:201
+#: ../../docs/user_manual/style_library/style_manager.rst:204
 msgid ""
 "Give the name of any :guilabel:`Additional tag(s)` to apply to the new "
 "items."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:202
+#: ../../docs/user_manual/style_library/style_manager.rst:205
 msgid "Select from the preview the symbols you want to add to your library."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:203
+#: ../../docs/user_manual/style_library/style_manager.rst:206
 msgid "And press :guilabel:`Import`."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:210
+#: ../../docs/user_manual/style_library/style_manager.rst:213
 msgid "Importing style items"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:216
+#: ../../docs/user_manual/style_library/style_manager.rst:219
 msgid "Using the Browser panel"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:218
+#: ../../docs/user_manual/style_library/style_manager.rst:221
 msgid ""
 "It's also possible to import style items into the active user profile "
-"style database diretly from the :guilabel:`Browser` panel:"
+"style database directly from the :guilabel:`Browser` panel:"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:221
+#: ../../docs/user_manual/style_library/style_manager.rst:224
 msgid "Select the style :file:`.xml` file in the browser"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:222
+#: ../../docs/user_manual/style_library/style_manager.rst:225
 msgid ""
 "Drag-and-drop it over the map canvas or right-click and select "
 ":guilabel:`Import Style...`"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:224
+#: ../../docs/user_manual/style_library/style_manager.rst:227
 msgid ""
 "Fill the :guilabel:`Import Items` dialog following "
 ":ref:`import_style_items`"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:225
+#: ../../docs/user_manual/style_library/style_manager.rst:228
 msgid ""
 "Press :guilabel:`Import` and the selected style items are added to the "
 "style database"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:228
+#: ../../docs/user_manual/style_library/style_manager.rst:231
 msgid ""
 "Double-clicking the style file in the browser opens the :guilabel:`Style "
 "Manager` dialog showing the items in the file. You can select them and "
@@ -414,65 +424,65 @@ msgid ""
 "right-click, :guilabel:`Open Style...` command."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:239
+#: ../../docs/user_manual/style_library/style_manager.rst:242
 msgid "Opening a style items file"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:241
+#: ../../docs/user_manual/style_library/style_manager.rst:244
 msgid ""
 "The dialog also allows to export single symbols as :file:`.PNG` or "
 ":file:`.SVG` files."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:247
+#: ../../docs/user_manual/style_library/style_manager.rst:250
 msgid "Setting a Color Ramp"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:255
+#: ../../docs/user_manual/style_library/style_manager.rst:258
 msgid ""
 "The Color ramp tab in the :guilabel:`Style Manager` dialog helps you "
 "preview different color ramps based on the category selected in the left "
 "panel."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:258
+#: ../../docs/user_manual/style_library/style_manager.rst:261
 msgid ""
 "To create a custom color ramp, activate the Color ramp tab and click the "
 "|signPlus| :sup:`Add item` button. The button reveals a drop-down list to"
 " choose the ramp type:"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:262
+#: ../../docs/user_manual/style_library/style_manager.rst:265
 msgid ""
 ":guilabel:`Gradient`: given a start and end colors, generate a color ramp"
 " which can be **continuous** or **discrete**. With double-clicking the "
 "ramp preview, you can add as many intermediate color stops as you want."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:271
+#: ../../docs/user_manual/style_library/style_manager.rst:274
 msgid "Example of custom gradient color ramp with multiple stops"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:273
+#: ../../docs/user_manual/style_library/style_manager.rst:276
 msgid ""
 ":guilabel:`Color presets`: allows to create a color ramp consisting of a "
 "list of colors selected by the user;"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:275
+#: ../../docs/user_manual/style_library/style_manager.rst:278
 msgid ""
 ":guilabel:`Random`: creates a random set of colors based on range of "
 "values for :guilabel:`Hue`, :guilabel:`Saturation`, :guilabel:`Value` and"
 " :guilabel:`Opacity` and a number of colors (:guilabel:`Classes`);"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:278
+#: ../../docs/user_manual/style_library/style_manager.rst:281
 msgid ""
 ":guilabel:`Catalog: ColorBrewer`: a set of predefined discrete color "
 "gradients you can customize the number of colors in the ramp;"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:280
+#: ../../docs/user_manual/style_library/style_manager.rst:283
 msgid ""
 "or :guilabel:`Catalog: cpt-city`: an access to a whole catalog of color "
 "gradients to locally :guilabel:`save as standard gradient`. The cpt-city "
@@ -480,15 +490,15 @@ msgid ""
 "box'."
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:289
+#: ../../docs/user_manual/style_library/style_manager.rst:292
 msgid "cpt-city dialog with hundreds of color ramps"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:291
+#: ../../docs/user_manual/style_library/style_manager.rst:294
 msgid "**Easily adjust the color stops of the gradient color ramp**"
 msgstr ""
 
-#: ../../docs/user_manual/style_library/style_manager.rst:293
+#: ../../docs/user_manual/style_library/style_manager.rst:296
 msgid ""
 "Double-clicking the ramp preview or drag-and-drop a color from the color "
 "spot onto the ramp preview adds a new color stop. Each color stop can be "
@@ -498,4 +508,17 @@ msgid ""
 ":guilabel:`Relative position` spinbox. Pressing :guilabel:`Delete stop` "
 "as well as :kbd:`DEL` key removes the selected color stop."
 msgstr ""
+
+#~ msgid ""
+#~ ":menuselection:`Add to Tag -->` and "
+#~ "select the appropriate tag or create "
+#~ "a new one to use;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It's also possible to import style "
+#~ "items into the active user profile "
+#~ "style database diretly from the "
+#~ ":guilabel:`Browser` panel:"
+#~ msgstr ""
 

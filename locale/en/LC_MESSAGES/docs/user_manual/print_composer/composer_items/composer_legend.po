@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,8 +125,8 @@ msgstr ""
 msgid ""
 "The legend will be updated automatically if |checkbox| :guilabel:`Auto-"
 "update` is checked. When :guilabel:`Auto-update` is unchecked this will "
-"give you more control over the legend items. The icons below the legend "
-"items list will be activated."
+"give you more control over the legend items. All the icons below the "
+"legend items list will be activated."
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:88
@@ -161,17 +161,41 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:101
-msgid "The |sum| button adds a feature count for each class of vector layer."
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:102
 msgid ""
-"With the |filterMap| :sup:`Filter legend by map content` button, only the"
-" legend items visible in the map will be listed in the legend. This tool "
-"remains available when |checkbox| :guilabel:`Auto-update` is active."
+"|expression| allows you to add expressions to each symbol label of a "
+"given layer. New variables (``@symbol_label``, ``@symbol_id`` and "
+"``@symbol_count``) help you interact with the legend entry."
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:105
+msgid ""
+"For example, given a categorized layer, you can append to each class in "
+"the legend their number of features, ie *class (number)*:"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:108
+msgid "Select the layer entry in the legend tree"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:109
+msgid ""
+"Press the |expression| button, opening the :guilabel:`Expression String "
+"Builder` dialog"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:111
+msgid "Enter the following expression::"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:115
+msgid "Press :guilabel:`OK`"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:117
+msgid "The |sum| button adds a feature count for each class of vector layer."
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:118
 msgid ""
 "The |expressionFilter| :sup:`Filter legend by expression` helps you "
 "filter which of the legend items of a layer will be displayed, i.e. using"
@@ -182,53 +206,29 @@ msgid ""
 " item."
 msgstr ""
 
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:111
-msgid ""
-"|addExpression| :sup:`Add symbol expression` allows you to add "
-"expressions to each symbol label of a given layer. New variables "
-"(``@symbol_label``, ``@symbol_id`` and ``@symbol_count``) help you "
-"interact with the legend entry."
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:116
-msgid ""
-"For example, given a categorized layer, you can append to each class in "
-"the legend their number of features, ie *class (number)*:"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:119
-msgid "Select the layer entry in the legend tree"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:120
-msgid ""
-"Press the |addExpression| :sup:`Add symbol expression` button, opening "
-"the :guilabel:`Expression String Builder` dialog"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:122
-msgid "Enter the following expression::"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:126
-msgid "Press :guilabel:`OK`"
-msgstr ""
-
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:128
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:125
 msgid ""
 "While the default behavior of the legend item is to mimic the "
 ":guilabel:`Layers` panel tree, displaying the same groups, layers and "
 "classes of symbology, right-click any item offers you options to hide "
 "layer's name or raise it as a group or subgroup. In case you have made "
 "some changes to a layer, you can revert them by choosing :guilabel:`Reset"
-" to defaults` from the contextual menu."
+" to defaults` from the contextual menu of the legend entry."
 msgstr ""
 
-#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:135
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:132
 msgid ""
 "After changing the symbology in the QGIS main window, you can click on "
 ":guilabel:`Update All` to adapt the changes in the legend element of the "
 "print layout."
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:136
+msgid ""
+"With the |checkbox| :guilabel:`Only show items inside linked map`, only "
+"the legend items visible in the linked map will be listed in the legend. "
+"This tool remains available when |checkbox| :guilabel:`Auto-update` is "
+"active"
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_legend.rst:139
@@ -469,5 +469,54 @@ msgstr ""
 #~ "subgroup, symbol, icon label, box, "
 #~ "column or line can be customized "
 #~ "through this dialog."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The legend will be updated automatically"
+#~ " if |checkbox| :guilabel:`Auto-update` is"
+#~ " checked. When :guilabel:`Auto-update` is"
+#~ " unchecked this will give you more"
+#~ " control over the legend items. The"
+#~ " icons below the legend items list"
+#~ " will be activated."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With the |filterMap| :sup:`Filter legend "
+#~ "by map content` button, only the "
+#~ "legend items visible in the map "
+#~ "will be listed in the legend. This"
+#~ " tool remains available when |checkbox| "
+#~ ":guilabel:`Auto-update` is active."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "|addExpression| :sup:`Add symbol expression` "
+#~ "allows you to add expressions to "
+#~ "each symbol label of a given "
+#~ "layer. New variables (``@symbol_label``, "
+#~ "``@symbol_id`` and ``@symbol_count``) help you"
+#~ " interact with the legend entry."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Press the |addExpression| :sup:`Add symbol "
+#~ "expression` button, opening the "
+#~ ":guilabel:`Expression String Builder` dialog"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "While the default behavior of the "
+#~ "legend item is to mimic the "
+#~ ":guilabel:`Layers` panel tree, displaying the"
+#~ " same groups, layers and classes of"
+#~ " symbology, right-click any item "
+#~ "offers you options to hide layer's "
+#~ "name or raise it as a group "
+#~ "or subgroup. In case you have made"
+#~ " some changes to a layer, you "
+#~ "can revert them by choosing "
+#~ ":guilabel:`Reset to defaults` from the "
+#~ "contextual menu."
 #~ msgstr ""
 

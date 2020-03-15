@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,8 +39,7 @@ msgstr ""
 
 #: ../../docs/user_manual/plugins/core_plugins/plugins_coordinate_capture.rst:20
 msgid ""
-"Click on the |checkbox| `Enable on the fly projection` checkbox and "
-"select a projected coordinate system of your choice (see also "
+"Select a projected coordinate system of your choice (see also "
 ":ref:`label_projections`)."
 msgstr ""
 
@@ -77,4 +76,12 @@ msgstr ""
 #: ../../docs/user_manual/plugins/core_plugins/plugins_coordinate_capture.rst:36
 msgid "You can also copy selected coordinates to the clipboard."
 msgstr ""
+
+#~ msgid ""
+#~ "Click on the |checkbox| `Enable on "
+#~ "the fly projection` checkbox and select"
+#~ " a projected coordinate system of "
+#~ "your choice (see also "
+#~ ":ref:`label_projections`)."
+#~ msgstr ""
 

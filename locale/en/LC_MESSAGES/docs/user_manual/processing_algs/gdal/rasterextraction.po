@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -254,7 +254,8 @@ msgid "Options:"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:73
-msgid "0 --- Use input layer data type"
+#: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:241
+msgid "0 --- Use Input Layer Data Type"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:74
@@ -313,6 +314,8 @@ msgid "11 --- CFloat64"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:86
+#: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:254
+#: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:368
 msgid "**Additional command-line parameters**"
 msgstr ""
 
@@ -483,7 +486,7 @@ msgid "The resolution of the output raster will not be changed"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:192
-msgid "**Set output file resolution** |36|"
+msgid "**Set output file resolution**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:193
@@ -495,7 +498,7 @@ msgid "Shall the output resolution (cell size) be specified"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:198
-msgid "**X Resolution to output bands** |36|"
+msgid "**X Resolution to output bands**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:201
@@ -507,7 +510,7 @@ msgid "The with of the cells in the output raster"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:206
-msgid "**Y Resolution to output band** |36|"
+msgid "**Y Resolution to output band**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:209
@@ -519,20 +522,11 @@ msgid "The height of the cells in the output raster"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:214
-msgid "**Use multithreaded warping implementation** |36|"
+msgid "**Use multithreaded warping implementation**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:215
 msgid "``MULTITHREADING``"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:241
-msgid "0 --- Use Input Layer Data Type"
-msgstr ""
-
-#: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:254
-#: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:368
-msgid "**Additional command-line parameters** |310|"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:262
@@ -677,4 +671,22 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasterextraction.rst:416
 msgid "Output vector layer with contour lines"
 msgstr ""
+
+#~ msgid "0 --- Use input layer data type"
+#~ msgstr ""
+
+#~ msgid "**Set output file resolution** |36|"
+#~ msgstr ""
+
+#~ msgid "**X Resolution to output bands** |36|"
+#~ msgstr ""
+
+#~ msgid "**Y Resolution to output band** |36|"
+#~ msgstr ""
+
+#~ msgid "**Use multithreaded warping implementation** |36|"
+#~ msgstr ""
+
+#~ msgid "**Additional command-line parameters** |310|"
+#~ msgstr ""
 

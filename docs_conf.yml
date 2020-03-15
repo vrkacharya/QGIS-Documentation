@@ -1,5 +1,5 @@
 
 version_list: testing, latest, 3.10, 3.4, 2.18
 # Fill this list based on languages that are actually pulled from transifex
-supported_languages: en, fr, de, nl, it
+supported_languages: en, fr, de, nl, it, ja, ro, es, pt_BR, ko, ro
 docs_url: https://docs.qgis.org/

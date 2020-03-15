@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,8 +87,8 @@ msgid "Now restart Apache for the new configuration to be taken into account:"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:99
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:160
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:201
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:166
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:208
 msgid "QGIS Server is now available at http://localhost/qgisserver."
 msgstr ""
 
@@ -105,17 +105,17 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:110
 msgid ""
-"On Debian-based systems, you may use **fcgiwrap** or **spawn-fcgi** to "
+"On Debian-based systems, you can use **spawn-fcgi** or **fcgiwrap** to "
 "start and manage the QGIS Server processes. Official Debian packages "
 "exist for both."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:115
 msgid ""
-"fcgiwrap is easier to set up than spawn-fcgi, because it's already "
-"wrapped in a Systemd service. But it also leads to a solution that is "
-"much slower than using spawn-fcgi. With fcgiwrap a new QGIS Server "
-"process is created on each request, meaning that the QGIS Server "
+"**fcgiwrap** is easier to set up than **spawn-fcgi**, because it's "
+"already wrapped in a Systemd service. But it also leads to a solution "
+"that is much slower than using spawn-fcgi. With fcgiwrap a new QGIS "
+"Server process is created on each request, meaning that the QGIS Server "
 "initialization process, which includes reading and parsing the QGIS "
 "project file, is done on each request. With spawn-fcgi, the QGIS Server "
 "process remains alive between requests, resulting in much better "
@@ -127,62 +127,62 @@ msgstr ""
 msgid "Install NGINX:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:132
-msgid "fcgiwrap"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:134
-msgid ""
-"If you want to use `fcgiwrap "
-"<https://www.nginx.com/resources/wiki/start/topics/examples/fcgiwrap/>`_ "
-"to run QGIS Server, you first have to install the corresponding package:"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:141
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:173
-msgid "Then, introduce the following block in your NGINX server configuration:"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:153
-msgid ""
-"Finally, restart NGINX and fcgiwrap to take into account the new "
-"configuration:"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:163
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:131
 msgid "spawn-fcgi"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:165
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:133
 msgid ""
-"If you prefer to use `spawn-fcgi <https://redmine.lighttpd.net/projects"
-"/spawn-fcgi/wiki>`_ instead of fcgiwrap, the first step is to install the"
-" package:"
+"If you want to use `spawn-fcgi <https://redmine.lighttpd.net/projects"
+"/spawn-fcgi/wiki>`_, the first step is to install the package:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:183
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:141
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:189
+msgid "Then, introduce the following block in your NGINX server configuration:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:151
 msgid "And restart NGINX to take into account the new configuration:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:189
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:157
 msgid ""
 "Finally, considering that there is no default service file for spawn-"
 "fcgi, you have to manually start QGIS Server in your terminal:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:198
-msgid ""
-"Of course, you may write an init script (like a ``qgisserver.service`` "
-"file with Systemd) to start QGIS Server at boot time or whenever you "
-"want."
-msgstr ""
-
-#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:205
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:170
 msgid ""
 "With the above command spawn-fcgi spawns only one QGIS Server process. To"
 " use more than one QGIS Server process you can combine spawn-fcgi with "
 "the `multiwatch <https://redmine.lighttpd.net/projects/multiwatch/wiki>`_"
 " tool, which is also packaged in Debian."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:175
+msgid ""
+"Of course, you can add an init script (like a ``qgis-server.service`` "
+"file with systemd) to start QGIS Server at boot time or whenever you "
+"want."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:179
+msgid "fcgiwrap"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:181
+msgid ""
+"Using `fcgiwrap "
+"<https://www.nginx.com/resources/wiki/start/topics/examples/fcgiwrap/>`_ "
+"is much easier to setup than **spawn-fcgi** but it's much slower. You "
+"first have to install the corresponding package:"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:201
+msgid ""
+"Finally, restart NGINX and **fcgiwrap** to take into account the new "
+"configuration:"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:211
@@ -558,8 +558,8 @@ msgstr ""
 #: ../../docs/user_manual/working_with_ogc/server/getting_started.rst:593
 msgid ""
 "For vector layers, the :guilabel:`Fields` menu of the "
-":menuselection:`Layer --> Properties` dialog allows you to define for "
-"each attribute if it will be published or not. By default, all the "
+":menuselection:`Layer --> Layer Properties` dialog allows you to define "
+"for each attribute if it will be published or not. By default, all the "
 "attributes are published by your WMS and WFS. If you don't want a "
 "specific attribute to be published, uncheck the corresponding checkbox in"
 " the :guilabel:`WMS` or :guilabel:`WFS` column."
@@ -579,4 +579,74 @@ msgid ""
 " Properties...` dialog) or to manually modify the path to the SVG image "
 "so that it represents a valid relative path."
 msgstr ""
+
+#~ msgid ""
+#~ "On Debian-based systems, you may "
+#~ "use **fcgiwrap** or **spawn-fcgi** to"
+#~ " start and manage the QGIS Server "
+#~ "processes. Official Debian packages exist "
+#~ "for both."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "fcgiwrap is easier to set up than"
+#~ " spawn-fcgi, because it's already "
+#~ "wrapped in a Systemd service. But "
+#~ "it also leads to a solution that"
+#~ " is much slower than using spawn-"
+#~ "fcgi. With fcgiwrap a new QGIS "
+#~ "Server process is created on each "
+#~ "request, meaning that the QGIS Server"
+#~ " initialization process, which includes "
+#~ "reading and parsing the QGIS project "
+#~ "file, is done on each request. "
+#~ "With spawn-fcgi, the QGIS Server "
+#~ "process remains alive between requests, "
+#~ "resulting in much better performance. "
+#~ "For that reason, spawn-fcgi is "
+#~ "recommended for production use."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to use `fcgiwrap "
+#~ "<https://www.nginx.com/resources/wiki/start/topics/examples/fcgiwrap/>`_"
+#~ " to run QGIS Server, you first "
+#~ "have to install the corresponding "
+#~ "package:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Finally, restart NGINX and fcgiwrap to"
+#~ " take into account the new "
+#~ "configuration:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you prefer to use `spawn-fcgi"
+#~ " <https://redmine.lighttpd.net/projects/spawn-fcgi/wiki>`_"
+#~ " instead of fcgiwrap, the first step"
+#~ " is to install the package:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Of course, you may write an init"
+#~ " script (like a ``qgisserver.service`` file"
+#~ " with Systemd) to start QGIS Server"
+#~ " at boot time or whenever you "
+#~ "want."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For vector layers, the :guilabel:`Fields` "
+#~ "menu of the :menuselection:`Layer --> "
+#~ "Properties` dialog allows you to define"
+#~ " for each attribute if it will "
+#~ "be published or not. By default, "
+#~ "all the attributes are published by "
+#~ "your WMS and WFS. If you don't "
+#~ "want a specific attribute to be "
+#~ "published, uncheck the corresponding checkbox"
+#~ " in the :guilabel:`WMS` or :guilabel:`WFS`"
+#~ " column."
+#~ msgstr ""
 

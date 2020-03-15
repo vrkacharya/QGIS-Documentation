@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGISDoc \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-14 15:40+0100\n"
+"POT-Creation-Date: 2020-03-14 23:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -298,7 +298,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "concatenate_unique |38|"
+msgid "concatenate_unique"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -506,7 +506,7 @@ msgid "Returns an array containing all the values passed as parameter"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "array_all |38|"
+msgid "array_all"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -664,7 +664,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "array_sort |36|"
+msgid "array_sort"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -925,7 +925,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "nullif(value1, value2) |36|"
+msgid "nullif(value1, value2)"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -935,7 +935,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "try |36|"
+msgid "try"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -1172,7 +1172,7 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression.rst:747
 #: ../../docs/user_manual/working_with_vector/expression.rst:943
 #: ../../docs/user_manual/working_with_vector/expression.rst:1015
-#: ../../docs/user_manual/working_with_vector/expression.rst:1239
+#: ../../docs/user_manual/working_with_vector/expression.rst:1240
 msgid "**Some examples:**"
 msgstr ""
 
@@ -1261,7 +1261,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:496
-msgid "Files and Paths Functions |38|"
+msgid "Files and Paths Functions"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:498
@@ -1633,7 +1633,7 @@ msgid "Returns the point on a geometry that is closest to a second geometry"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "collect_geometries |310|"
+msgid "collect_geometries"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -1768,7 +1768,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "force_rhr |36|"
+msgid "force_rhr"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -1933,6 +1933,16 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid "line_merge"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid ""
+"Returns a (Multi-)LineString geometry, where any connected LineStrings "
+"from the input geometry have been merged into a single linestring."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid "line_substring"
 msgstr ""
 
@@ -1941,16 +1951,6 @@ msgid ""
 "Returns the portion of a line or curve geometry falling betweeen "
 "specified start and end distances (measured from the beginning of the "
 "line) (see also :ref:`qgislinesubstring`)"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "line_merge"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid ""
-"Returns a (Multi-)LineString geometry, where any connected LineStrings "
-"from the input geometry have been merged into a single linestring."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -2012,7 +2012,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "make_rectangle_3points |36|"
+msgid "make_rectangle_3points"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -2028,7 +2028,7 @@ msgid "Creates a regular polygon"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "make_square |36|"
+msgid "make_square"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -2189,8 +2189,9 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid ""
-"Returns a point projected from a start point using a distance and bearing"
-" (azimuth) in radians (see also :ref:`qgisprojectpointcartesian`)"
+"Returns a point projected from a start point using a distance, a bearing "
+"(azimuth) and an elevation in radians (see also "
+":ref:`qgisprojectpointcartesian`)"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -2375,22 +2376,22 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "x_min"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid ""
-"Returns the minimum X coordinate of a geometry. Calculations are in the "
-"Spatial Reference System of this geometry"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid "x_max"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid ""
 "Returns the maximum X coordinate of a geometry. Calculations are in the "
+"Spatial Reference System of this geometry"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid "x_min"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid ""
+"Returns the minimum X coordinate of a geometry. Calculations are in the "
 "Spatial Reference System of this geometry"
 msgstr ""
 
@@ -2405,22 +2406,22 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "y_min"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid ""
-"Returns the minimum Y coordinate of a geometry. Calculations are in the "
-"Spatial Reference System of this geometry"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid "y_max"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid ""
 "Returns the maximum Y coordinate of a geometry. Calculations are in the "
+"Spatial Reference System of this geometry"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid "y_min"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid ""
+"Returns the minimum Y coordinate of a geometry. Calculations are in the "
 "Spatial Reference System of this geometry"
 msgstr ""
 
@@ -2490,7 +2491,7 @@ msgid "It also provides some convenient functions to manipulate layers."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "decode_uri |36|"
+msgid "decode_uri"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -2514,7 +2515,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "from_json |36|"
+msgid "from_json"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -2622,7 +2623,7 @@ msgid "Merges map elements into a json-formatted string"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "to_json |36|"
+msgid "to_json"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3142,7 +3143,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:958
-msgid "Processing Functions |36|"
+msgid "Processing Functions"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:960
@@ -3217,7 +3218,7 @@ msgid "Returns the value of a specified attribute from a feature"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "attributes |310|"
+msgid "attributes"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3269,7 +3270,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "sql_fetch_and_increment |36|"
+msgid "sql_fetch_and_increment"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3679,7 +3680,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "fullextent_maxx |38|"
+msgid "fullextent_maxx"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3687,7 +3688,7 @@ msgid "Maximum x value from full canvas extent (including all layers)"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "fullextent_maxy |38|"
+msgid "fullextent_maxy"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3695,7 +3696,7 @@ msgid "Maximum y value from full canvas extent (including all layers)"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "fullextent_minx |38|"
+msgid "fullextent_minx"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3703,7 +3704,7 @@ msgid "Minimum x value from full canvas extent (including all layers)"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "fullextent_miny |38|"
+msgid "fullextent_miny"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3845,7 +3846,7 @@ msgid "Returns the active page width in the layout (in mm)"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "legend_column_count |36|"
+msgid "legend_column_count"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3853,7 +3854,7 @@ msgid "Returns the number of columns in the legend"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "legend_filter_by_map |36|"
+msgid "legend_filter_by_map"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3861,7 +3862,7 @@ msgid "Indicates if the content of the legend is filtered by the map"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "legend_filter_out_atlas |36|"
+msgid "legend_filter_out_atlas"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3869,7 +3870,7 @@ msgid "Indicates if the atlas is filtered out of the legend"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "legend_split_layers |36|"
+msgid "legend_split_layers"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3877,7 +3878,7 @@ msgid "Indicates if layers can be split in the legend"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "legend_title |36|"
+msgid "legend_title"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3885,7 +3886,7 @@ msgid "Returns the title of the legend"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "legend_wrap_string |36|"
+msgid "legend_wrap_string"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3901,7 +3902,7 @@ msgid "Returns the Coordinate reference system of the current map"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "map_crs_acronym |36|"
+msgid "map_crs_acronym"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3919,7 +3920,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "map_crs_description |36|"
+msgid "map_crs_description"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3927,7 +3928,7 @@ msgid "Returns the name of the Coordinate reference system of the current map"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "map_crs_ellipsoid |36|"
+msgid "map_crs_ellipsoid"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3937,7 +3938,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "map_crs_proj4 |36|"
+msgid "map_crs_proj4"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -3947,7 +3948,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
-msgid "map_crs_wkt |36|"
+msgid "map_crs_wkt"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
@@ -4264,6 +4265,14 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid "scale_value"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
+msgid "Returns current scale bar distance value"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression.rst:1
 msgid "symbol_angle"
 msgstr ""
 
@@ -4319,27 +4328,27 @@ msgid ""
 "recalculating the same value repeatedly"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1241
+#: ../../docs/user_manual/working_with_vector/expression.rst:1242
 msgid ""
 "Return the X coordinate of a map item center to insert into a label in "
 "layout::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1245
+#: ../../docs/user_manual/working_with_vector/expression.rst:1246
 msgid ""
 "Return for each feature in the current layer the number of overlapping "
 "airports features::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1251
+#: ../../docs/user_manual/working_with_vector/expression.rst:1252
 msgid "Get the object_id of the first snapped point of a line::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1267
+#: ../../docs/user_manual/working_with_vector/expression.rst:1268
 msgid "Recent Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1269
+#: ../../docs/user_manual/working_with_vector/expression.rst:1270
 msgid ""
 "This group contains recently used functions. Depending on the context of "
 "its usage (feature selection, field calculator, generic), any applied "
@@ -4348,11 +4357,11 @@ msgid ""
 "retrieve and reapply any previously used expression."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1280
+#: ../../docs/user_manual/working_with_vector/expression.rst:1281
 msgid "Function Editor"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1282
+#: ../../docs/user_manual/working_with_vector/expression.rst:1283
 msgid ""
 "With the :guilabel:`Function Editor` tab, you are able to write your own "
 "functions in Python language. This provides a handy and comfortable way "
@@ -4360,23 +4369,23 @@ msgid ""
 "functions."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1291
+#: ../../docs/user_manual/working_with_vector/expression.rst:1292
 msgid "The Function Editor tab"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1293
+#: ../../docs/user_manual/working_with_vector/expression.rst:1294
 msgid "To create a new function:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1295
+#: ../../docs/user_manual/working_with_vector/expression.rst:1296
 msgid "Press the |signPlus| :sup:`New File` button."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1296
+#: ../../docs/user_manual/working_with_vector/expression.rst:1297
 msgid "Enter a name to use in the form that pops up and press :guilabel:`OK`."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1298
+#: ../../docs/user_manual/working_with_vector/expression.rst:1299
 msgid ""
 "A new item of the name you provide is added in the left panel of the "
 ":guilabel:`Function Editor` tab; this is a Python :file:`.py` file based "
@@ -4384,24 +4393,24 @@ msgid ""
 "folder under the active :ref:`user profile <user_profiles>` directory."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1302
+#: ../../docs/user_manual/working_with_vector/expression.rst:1303
 msgid ""
 "The right panel displays the content of the file: a python script "
 "template. Update the code and its help according to your needs."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1304
+#: ../../docs/user_manual/working_with_vector/expression.rst:1305
 msgid ""
 "Press the |start| :guilabel:`Save and Load Functions` button. The "
 "function you wrote is added to the functions tree in the "
 ":guilabel:`Expression` tab, by default under the ``Custom`` group."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1307
+#: ../../docs/user_manual/working_with_vector/expression.rst:1308
 msgid "Enjoy your new function."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1308
+#: ../../docs/user_manual/working_with_vector/expression.rst:1309
 msgid ""
 "If the function requires improvements, enable the :guilabel:`Function "
 "Editor` tab, do the changes and press again the |start| :guilabel:`Save "
@@ -4409,7 +4418,7 @@ msgid ""
 "any expression tab."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1313
+#: ../../docs/user_manual/working_with_vector/expression.rst:1314
 msgid ""
 "Custom Python functions are stored under the user profile directory, "
 "meaning that at each QGIS startup, it will auto load all the functions "
@@ -4420,11 +4429,11 @@ msgid ""
 ":file:`/python/expressions` folder."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1320
+#: ../../docs/user_manual/working_with_vector/expression.rst:1321
 msgid "Here's a short example on how to create your own functions:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1340
+#: ../../docs/user_manual/working_with_vector/expression.rst:1341
 msgid ""
 "The short example creates a function ``my_sum`` that will give you a "
 "function with two values. When using the ``args='auto'`` function "
@@ -4433,15 +4442,15 @@ msgid ""
 "(minus 2 - ``feature``, and ``parent``)."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1346
+#: ../../docs/user_manual/working_with_vector/expression.rst:1347
 msgid "This function can then be used in expressions:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1353
+#: ../../docs/user_manual/working_with_vector/expression.rst:1354
 msgid "Custom Function added to the Expression tab"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression.rst:1356
+#: ../../docs/user_manual/working_with_vector/expression.rst:1357
 msgid ""
 "Further information about creating Python code can be found in the :ref"
 ":`PyQGIS-Developer-Cookbook`."
@@ -4599,5 +4608,105 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Returns the color of the symbol used to render the feature"
+#~ msgstr ""
+
+#~ msgid "concatenate_unique |38|"
+#~ msgstr ""
+
+#~ msgid "array_all |38|"
+#~ msgstr ""
+
+#~ msgid "array_sort |36|"
+#~ msgstr ""
+
+#~ msgid "nullif(value1, value2) |36|"
+#~ msgstr ""
+
+#~ msgid "try |36|"
+#~ msgstr ""
+
+#~ msgid "Files and Paths Functions |38|"
+#~ msgstr ""
+
+#~ msgid "collect_geometries |310|"
+#~ msgstr ""
+
+#~ msgid "force_rhr |36|"
+#~ msgstr ""
+
+#~ msgid "make_rectangle_3points |36|"
+#~ msgstr ""
+
+#~ msgid "make_square |36|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns a point projected from a "
+#~ "start point using a distance and "
+#~ "bearing (azimuth) in radians (see also"
+#~ " :ref:`qgisprojectpointcartesian`)"
+#~ msgstr ""
+
+#~ msgid "decode_uri |36|"
+#~ msgstr ""
+
+#~ msgid "from_json |36|"
+#~ msgstr ""
+
+#~ msgid "to_json |36|"
+#~ msgstr ""
+
+#~ msgid "Processing Functions |36|"
+#~ msgstr ""
+
+#~ msgid "attributes |310|"
+#~ msgstr ""
+
+#~ msgid "sql_fetch_and_increment |36|"
+#~ msgstr ""
+
+#~ msgid "fullextent_maxx |38|"
+#~ msgstr ""
+
+#~ msgid "fullextent_maxy |38|"
+#~ msgstr ""
+
+#~ msgid "fullextent_minx |38|"
+#~ msgstr ""
+
+#~ msgid "fullextent_miny |38|"
+#~ msgstr ""
+
+#~ msgid "legend_column_count |36|"
+#~ msgstr ""
+
+#~ msgid "legend_filter_by_map |36|"
+#~ msgstr ""
+
+#~ msgid "legend_filter_out_atlas |36|"
+#~ msgstr ""
+
+#~ msgid "legend_split_layers |36|"
+#~ msgstr ""
+
+#~ msgid "legend_title |36|"
+#~ msgstr ""
+
+#~ msgid "legend_wrap_string |36|"
+#~ msgstr ""
+
+#~ msgid "map_crs_acronym |36|"
+#~ msgstr ""
+
+#~ msgid "map_crs_description |36|"
+#~ msgstr ""
+
+#~ msgid "map_crs_ellipsoid |36|"
+#~ msgstr ""
+
+#~ msgid "map_crs_proj4 |36|"
+#~ msgstr ""
+
+#~ msgid "map_crs_wkt |36|"
 #~ msgstr ""
 
