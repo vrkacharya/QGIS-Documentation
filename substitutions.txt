@@ -554,7 +554,7 @@
    :width: 1.5em
 .. |labelshadow| image:: /static/common/labelshadow.png
    :width: 1.5em
-.. |largeLandUseArea| replace:: Bontebok National Park
+.. |largeLandUseArea| replace:: University of Michigan
 .. |layerExtent| image:: /static/common/layer_extent.png
    :width: 1.5em
 .. |layoutManager| image:: /static/common/mActionLayoutManager.png
@@ -597,7 +597,7 @@
    :width: 1.5em
 .. |lowerItems| image:: /static/common/mActionLowerItems.png
    :width: 1.5em
-.. |majorUrbanName| replace:: Swellendam
+.. |majorUrbanName| replace:: Ann Arbor
 .. |makepermanent| image:: /static/common/mIndicatorMemory.png
    :width: 1.5em
 .. |mapIdentification| image:: /static/common/mActionMapIdentification.png
@@ -937,7 +937,7 @@
    :width: 1.5em
 .. |sqlQueryBuilder| image:: /static/common/sqlquerybuilder.png
    :width: 1.5em
-.. |srtmFileName| replace:: :file:`srtm_41_19_4326.tif`
+.. |srtmFileName| replace:: :file:`srtm_20_04_.tif`
 .. |stackedBar| image:: /static/common/stacked-bar.png
    :width: 1.5em
 .. |start| image:: /static/common/mActionStart.png
